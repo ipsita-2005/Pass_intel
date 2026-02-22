@@ -1,8 +1,8 @@
 import axios from 'axios'
 
 const api = axios.create({
-  baseURL: '//',  // uses Vite proxy → localhost:8000
-  timeout: 10_000,
+  baseURL: 'https://pass-intel.onrender.com',
+  timeout: 30_000,
 })
 
 export interface AnalysisResult {
